@@ -18,7 +18,7 @@ const Benefits = () => {
           {benefits.map((item) => (
             <div
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
-              style={{backgroundImage: `${item.backgroundUrl}`}}
+              style={{backgroundImage: `../assets/benefits/${item.backgroundUrl}`, borderStyle: 'solid', borderWidth: 0.5, borderColor: 'white', borderRadius: 30, borderTopRightRadius: 80}}
               key={item.id}
             >
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
